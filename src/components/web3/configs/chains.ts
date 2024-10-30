@@ -44,4 +44,6 @@ const bscTestnet = {
   },
 } as const satisfies Chain;
 
-export { bsc, bscTestnet }; 
+// export { bsc, bscTestnet }; 
+
+export { bscTestnet }; 
