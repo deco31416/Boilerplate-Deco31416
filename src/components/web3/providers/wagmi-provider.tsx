@@ -5,7 +5,7 @@ import {
 } from "@rainbow-me/rainbowkit";
 import { WagmiProvider as Provider } from "wagmi";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
-import {bscTestnet } from "../configs/chains";
+import { bscTestnet } from "../configs/chains";
 // import { bsc, bscTestnet } from "../configs/chains";
 import { ReactNode } from "react";
 import "@rainbow-me/rainbowkit/styles.css";
