@@ -39,7 +39,7 @@ MicaUSD is currently deployed on the Binance Smart Chain Testnet for testing and
 
 1. Clone this repository:
    ```bash
-   git clone 
+   git clone https://github.com/deco31416/Boilerplate-Deco31416.git
    ```
 2. Install the dependencies:
    ```bash
@@ -52,7 +52,7 @@ MicaUSD is currently deployed on the Binance Smart Chain Testnet for testing and
 
 ## License
 
-This project is protected under the [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/us/deed.en), and the underlying source code used to format and display this content is licensed under the [MIT license](https://github.com/deco31416//LICENSE.txt).
+This project is protected under the [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/us/deed.en), and the underlying source code used to format and display this content is licensed under the [MIT license]([https://github.com/deco31416//LICENSE.txt](https://github.com/deco31416/Boilerplate-Deco31416/blob/main/LICENSE.txt)).
 
 ## Developed by
 
