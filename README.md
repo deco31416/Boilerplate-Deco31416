@@ -18,6 +18,75 @@ public: Public assets like images and icons.
 
 This structure helps keep the code organized and makes it easy to add new features or expand existing ones.
 
+## Folder Structure
+
+```plaintext
+Boilerplate-Deco31416-main/
+├── public/
+│   ├── Boilerplate-Header.svg
+│   ├── favicon.ico
+│   └── img/
+│       ├── logo-40x40.png
+│       ├── logo-487x487.png
+│       ├── logo-500x500-Dark.png
+│       └── metamask.png
+├── src/
+│   ├── components/
+│   │   ├── Layout.tsx
+│   │   ├── footer.tsx
+│   │   ├── navbar.tsx
+│   │   ├── modals/
+│   │   │   ├── modals-cookies.tsx
+│   │   │   ├── modals-welcome.tsx
+│   │   │   └── styles.module.css
+│   │   ├── ui/
+│   │   │   ├── ConnectionStatusSwitch.tsx
+│   │   │   ├── LanguageSwitcher.tsx
+│   │   │   ├── MobileConnectButton.tsx
+│   │   │   ├── MobileMenu.tsx
+│   │   │   ├── ThemeToggle.tsx
+│   │   │   ├── button.tsx
+│   │   │   └── sheet.tsx
+│   │   └── web3/
+│   │       ├── abis/
+│   │       │   ├── custody-bsc.abi.ts
+│   │       │   └── token-bsc.abi.ts
+│   │       ├── configs/
+│   │       │   ├── chains.ts
+│   │       │   └── tokens.ts
+│   │       ├── providers/
+│   │       │   └── wagmi-provider.tsx
+│   │       └── types/
+│   │           └── index.ts
+│   ├── pages/
+│   │   ├── _app.tsx
+│   │   ├── _document.tsx
+│   │   └── index.tsx
+│   ├── styles/
+│   │   ├── Home.module.css
+│   │   └── globals.css
+│   └── translations/
+│       ├── i18n.js
+│       ├── en/
+│       │   └── translations.json
+│       └── es/
+│           └── translations.json
+├── .eslintrc.json
+├── .gitignore
+├── .npmrc
+├── .prettierrc
+├── LICENSE.txt
+├── README.md
+├── next-env.d.ts
+├── next.config.js
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── settings.json
+├── tailwind.config.js
+└── tsconfig.json
+```
+
 ## Technologies Used
 
 - **Next.js**: Main framework for the application.
@@ -26,6 +95,7 @@ This structure helps keep the code organized and makes it easy to add new featur
 - **Headless UI**: For interactive components without default styles.
 - **RainbowKit**: Connection of Wallets and support for multiple networks.
 - **Wagmi**: Management of blockchain networks, including Binance Smart Chain Testnet.
+- **Binance Smart Chain (BSC) Testnet:** Pre-configured testnet for testing and development before deployment to the mainnet.
 
 ## SEO Optimization
 
