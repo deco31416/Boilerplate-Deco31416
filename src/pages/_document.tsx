@@ -36,18 +36,18 @@ export default function Document() {
           property="og:description"
           content="A template designed to facilitate quick product integration and testing for blockchain and DApps. Learn more at deco31416.com."
         />
-        <meta property="og:image" content="/img/og-image.png" />
+        <meta property="og:image" content="https://res.cloudinary.com/dtwcswdd8/image/upload/v1730398087/Frame_1116606616_yz7uek.png" />
         <meta property="og:url" content="https://deco31416.com" />
         <meta property="og:type" content="website" />
 
-        {/* Twitter Card for Twitter Sharing */}
+        {/* Twitter Card Metadata */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Deco31416 Boilerplate" />
         <meta
           name="twitter:description"
           content="Boilerplate for fast integration and testing in DApp development. Discover more at deco31416.com."
         />
-        <meta name="twitter:image" content="/img/twitter-card.png" />
+        <meta name="twitter:image" content="https://res.cloudinary.com/dtwcswdd8/image/upload/v1730398087/Frame_1116606616_yz7uek.png" />
 
         {/* Google Analytics */}
         <script
